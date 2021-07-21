@@ -1,0 +1,118 @@
+html {
+    background-color: #333;
+    height: 100%;
+}
+#container {
+    height: 200px;
+    width: 70%;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    border: 5px solid red;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 2fr repeat(2, 3fr);
+    gap: 5px;
+}
+.lable{
+    margin: 0;
+    justify-self: center;
+    align-self: center;
+    font-size: 50px;
+}
+#DayText{
+    text-align: center;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+#HourText{
+    text-align: center;
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+#MinuteText{
+    text-align: center;
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+#SecondText{
+    text-align: center;
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+#HundredthsecondText{
+    text-align: center;
+    grid-column-start:6;
+    grid-column-end:7;
+    grid-row-start:1;
+    grid-row-end:2;
+}
+#day{
+    margin: 10px;
+    text-align: center;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+#hour{
+    margin: 10px;
+    text-align: center;
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+#minute{
+    margin: 10px;
+    text-align: center;
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+#second{
+    margin: 10px;
+    text-align: center;
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+#hundredthsecond{
+    margin: 10px;
+    text-align: center;
+    grid-column-start:6;
+    grid-column-end:7;
+    grid-row-start:2;
+    grid-row-end:3;
+}
+#Start{
+    margin: 10px;
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:3;
+    grid-row-end:4;
+}
+#Pause{
+    margin: 10px;
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:3;
+    grid-row-end:4;
+}
+#Reset{
+    margin: 10px;
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:3;
+    grid-row-end:4;
+}
